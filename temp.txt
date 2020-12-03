@@ -1,0 +1,21 @@
+
+1. user will be prompted to put in f or c
+2. if user puts in anything other than f or c, has to do over
+3. once user puts in f or c and it's confirmed, ask for temp
+4. if user puts in letter, will repeat until number is put in
+5. number will be convert from c to f or f to c.
+7. the display will say that temp was converted from f to c or vice-versa
+
+
+
+1. user clicks desired scale ( radio button)
+2. retrieve radio information and ask what the degrees is
+3. user selects temperature (try to make it where only numbers can be submited)
+4. start function that converts from f to c and vice-versa and display results
+5. message should say degree C has been converted to degree F and vice-versa
+
+
+how to get temp?
+Hot to add value to function to convert?
+how do I add scale to button?
+

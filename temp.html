@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--- <link rel ="stylesheet" href = "css/stylesheet.css">-->
+    
+
+    <title>Temperature</title>
+</head>
+<body>
+    <h1 class = "test-center">Temperature Converter</h1>
+
+    <p><b>What do you want to convert the current temperature scale to?</b></p>
+    <!--
+<input type="radio" id="male" name="gender" value="male"> 
+
+    -->
+    <input type = "radio" name = "converting" id = "celsius" onclick ="displayTemp()" checked value="celsius"> Celsius
+    <input type = "radio" name = "converting" id = "fahrenheit" onclick ="displayTemp()" value="fahrenheit"> Fahrenheit
+    
+    <br>
+
+    <p><b>What is the temperature?</b></p>
+    <input id ="temp" type = "text">
+    <button type ="button" id = "convert"  onclick = "displayTemp()">Convert</button>
+    <br>
+    <p id = "itsHot"> </p>
+    <script src = "temp.js"></script>
+
+    
+</body>
+</html>
+
+<!--once you finish, you can design page later for portfolio-->
